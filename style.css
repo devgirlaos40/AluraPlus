@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-background: #00030C;
+    --cor-texto-titulos: #FFFFFF;
+    --cor-texto-destaque: #EC2F46;
+    --cor-botao-destaque: #167BF7;
+    --cor-corpo-letras-miudas: #F9F9F9;
+    --cor-footer-letras-miudas: #c0c0c0;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--cor-background);
+    color: var(--cor-texto-titulos);
+}
+
+.principal{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.principal__titulo{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.botao__destaque{
+    background-color: var(--cor-botao-destaque);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--cor-texto-titulos);
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.botao{
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--cor-texto-titulos);
+    border: 1px solid var(--cor-footer-letras-miudas);
+    padding: 1rem;
+    border-radius: 8px;
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+
+}
+
+.principal__obs{
+    font-size: 0.75rem;
+}
+
+.principal__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.principal__divisao{
+    margin: 0 6em;
+}
+/*
+.conteudo{
+    background-image: url("/assets/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-conte nt: center;
+    padding: 125px 54px;
+    width: 550px;
+}
+.container{
+    height: 100vh;
+}
+
+.titulo{
+    width: 550px;
+    font-size: 1.75rem;
+    text-align: center;
+    color: var(--cor-texto-titulos);margin: 0;
+}
+
+.principal__imagem
+{
+    width: 50%;
+    padding: 0 78px; 
+}
+*/
