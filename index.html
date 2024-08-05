@@ -1,26 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Alura Plus</title>
 </head>
+
 <body>
     <header></header>
-    <!-- <main class="conteudo"> -->
-        <section class=" container principal">
-            <div class="principal__divisao">
-                <h1 class="principal__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-                <img class="principal__imagem" src="img/combo.png" alt="imagem combo Alura">  
+    <main>
+        <section class=" container pagina1">
+            <div class="pagina1__divisao">
+                <h2 class="pagina1__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço
+                    único.</h2>
+                <img class="pagina1__imagem" src="img/combo.png" alt="imagem combo Alura">
                 <div class="comandos">
-                    <a class="botao__destaque" href="#">Assine por 12x de R$ 120,00*</a>
-                    <a class="botao" href="#">Assinar somente o Alura+</a>
+                    <a class="pagina1__botao__destaque" href="#">Assine por 12x de R$ 120,00*</a>
+                    <a class="pagina1__botao" href="#">Assinar somente o Alura+</a>
                 </div>
-                <p class="principal__obs">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
+                <p class="pagina1__obs">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
             </div>
         </section>
-    <!-- </main> -->
-    <footer></footer>
+        <section class="container pagina2">
+            <img src="./img/plataformas.png" alt="tela de um computador contendo as plataformas Alura e Alura Língua"
+                class="pagina2__imagem">
+            <div class="pagina2__divisao">
+                <h1 class="pagina2__titulo">Assista do seu jeito</h1>
+                <p class="pagina2__obs">
+                    Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa
+                    seleção de cursos não para de crescer.
+                </p>
+            </div>
+        </section>
+        <section class="container pagina3">
+            <div class="pagina3__divisao">
+                <p class="pagina3__obs">
+                    Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da
+                    tecnologia e aprender inglês ou espanhol, onde e como quiser.
+                </p>
+                <a href="#" class="pagina3__botao__destaque">Assine o Combo+</a>
+            </div>
+            <img src="./img/telas.png" alt="telas das duas plataformas da Alura: Alura Tecnologia e Alura Línguas"
+                class="pagina3__imagem">
+        </section>
+        <section class="container pagina4">
+            <img src="./img/notebook.png" alt="notebook aberto com a tela de um curso HTML da ALura Tecnologia"
+                class="pagina4__imagem">
+            <div class="pagina4__divisao">
+                <h1 class="pagina4__titulo">Baixe seus cursos</h1>
+                <p class="pagina4__obs"> Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com
+                    você, até mesmo sem internet.</p>
+            </div>
+        </section>
+        <section class="pagina5">
+            <h1 class="pagina5__titulo">Disponível nos seus dispositivos favoritos</h1>
+            <div class="pagina5__divisao">
+                <div class="pagina5__divisao__item">
+                    <img src="./img/tv.png" alt="icone minimalista de uma TV" class="pagina5__imagem">
+                    <p class="pagina5__divisao__item__descricao">TV</p>
+                </div>
+                <div class="pagina5__divisao__item">
+                    <img src="./img/computador.png" alt="icone minimalista de um computador" class="pagina5__imagem">
+                    <p class="pagina5__divisao__item__descricao">Computador
+                    </p>
+                </div>
+                <div class="pagina5__divisao__item">
+                    <img src="./img/celular.png" alt="icone minimalista de um celular" class="pagina5__imagem">
+                    <p class="pagina5__divisao__item__descricao">Celulares e Tablets</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <img src="./img/logo.png" alt="logo da alura" class="rodape__imagem">
+        <ul class="rodape__links">
+            <li class="rodape__links__item">
+                <a href="#" class="rodape__links__item__link">Idioma</a>
+            </li>
+            <li class="rodape__links__item">
+                <a href="#" class="rodape__links__item__link">Dispositivos Compatíveis</a>
+            </li>
+            <li class="rodape__links__item">
+                <a href="#" class="rodape__links__item__link">Contrato de Assinatura</a>
+            </li>
+            <li class="rodape__links__item">
+                <a href="#" class="rodape__links__item__link">Política de Privacidade</a>         
+            </li>
+            <li class="rodape__links__item">
+                <a href="#" class="rodape__links__item__link">Proteção de Dados no Brasil</a>
+            </li>
+            <li class="rodape__links__item">
+                <a href="#" class="rodape__links__item__link">Anúncios Personalizados</a>
+            </li>
+            <li class="rodape__links__item">
+                <a href="#" class="rodape__links__item__link">Ajuda</a>
+            </li>
+        </ul>
+        <div class="rodape__letras__miudas">
+        <p class="rodape__letras__miudas__copyright">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+        <p class="rodape__letras__miudas__copyright">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
+    </div>
+    </footer>
 </body>
+
 </html>
